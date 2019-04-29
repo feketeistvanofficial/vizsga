@@ -115,4 +115,18 @@ sudo service smbd restart
 VÉGÉN: egyéb helyek, Ctrl+L, smb://ip cím (a user 2 csak akkor látható, ha mögé írjuk, hogy /user2; elvileg létre tudok hozni fájlokat, a readonly-nál megtagadja!
 #########################################################################################################
 
-# 8. SAMBA szerver elérése kliensről
+FÁJLFELTÖLTÉSEK
+
+sis-ként
+
+cd
+git clone sajatrepo.git
+fájlok bemásolása a saját repoba (mc-vel)
+cd sajátrepo/
+git add .
+git commit -m 'elso'
+git config --global user.email "fekete.pisti12@gmail.com"
+git config --global user.name feketeistvanofficial
+git commit -m 'elso'
+git push
+jelszó megadása
